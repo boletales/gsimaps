@@ -1496,9 +1496,76 @@
               "entries": [
                 {
                   "type": "LayerGroup",
+                  "title": "2026年迅速更新情報",
+                  "toggleall": false,
+                  "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "jin202602",
+                      "title": "2月更新",
+                      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+                      "url": "https://maps.gsi.go.jp/xyz/jin202602/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "jin202601",
+                      "title": "1月更新",
+                      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+                      "url": "https://maps.gsi.go.jp/xyz/jin202601/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    }
+                  ]
+                },
+                {
+                  "type": "LayerGroup",
+                  "title": "2026年登山道更新情報",
+                  "toggleall": false,
+                  "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "toz202601",
+                      "title": "1月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/toz202601/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    }
+                  ]
+                },
+                {
+                  "type": "LayerGroup",
                   "title": "2025年迅速更新情報",
                   "toggleall": false,
                   "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "jin202512",
+                      "title": "12月更新",
+                      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/104.png",
+                      "url": "https://maps.gsi.go.jp/xyz/jin202512/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "jin202511",
+                      "title": "11月更新",
+                      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/103.png",
+                      "url": "https://maps.gsi.go.jp/xyz/jin202511/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "jin202510",
+                      "title": "10月更新",
+                      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/102.png",
+                      "url": "https://maps.gsi.go.jp/xyz/jin202510/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
                     {
                       "type": "Layer",
                       "id": "jin202509",
@@ -1580,6 +1647,14 @@
                   "entries": [
                     {
                       "type": "Layer",
+                      "id": "men202510",
+                      "title": "10月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/men202510/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
                       "id": "men202509",
                       "title": "9月更新",
                       "url": "https://maps.gsi.go.jp/xyz/men202509/{z}/{x}/{y}.geojson",
@@ -1641,6 +1716,30 @@
                   "title": "2025年登山道更新情報",
                   "toggleall": false,
                   "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "toz202512",
+                      "title": "12月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/toz202512/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "toz202511",
+                      "title": "11月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/toz202511/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "toz202510",
+                      "title": "10月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/toz202510/{z}/{x}/{y}.geojson",
+                      "maxNativeZoom": 2,
+                      "cocotile": false
+                    },
                     {
                       "type": "Layer",
                       "id": "toz202509",
@@ -4834,9 +4933,34 @@
                 },
                 {
                   "type": "LayerGroup",
+                  "title": "2026年更新情報",
+                  "toggleall": false,
+                  "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "fgd_update_2026_01",
+                      "title": "1月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/fgd_update_2026_01/{z}/{x}/{y}.png",
+                      "cocotile": true,
+                      "minZoom": 4,
+                      "maxZoom": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "LayerGroup",
                   "title": "2025年更新情報",
                   "toggleall": false,
                   "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "fgd_update_2025_10",
+                      "title": "10月更新",
+                      "url": "https://maps.gsi.go.jp/xyz/fgd_update_2025_10/{z}/{x}/{y}.png",
+                      "cocotile": true,
+                      "minZoom": 4,
+                      "maxZoom": 12
+                    },
                     {
                       "type": "Layer",
                       "id": "fgd_update_2025_07",
@@ -5409,6 +5533,33 @@
                 },
                 {
                   "type": "LayerGroup",
+                  "title": "2025年10月更新",
+                  "toggleall": false,
+                  "entries": [
+                    {
+                      "type": "Layer",
+                      "id": "fgd_dem1a_update_2025_10",
+                      "title": "1ｍメッシュDEM（航空レーザ測量）",
+                      "url": "https://maps.gsi.go.jp/xyz/fgd_dem1a_update_2025_10/{z}/{x}/{y}.geojson",
+                      "cocotile": true,
+                      "minZoom": 2,
+                      "maxZoom": 14,
+                      "maxNativeZoom": 2
+                    },
+                    {
+                      "type": "Layer",
+                      "id": "fgd_dem5a_update_2025_10",
+                      "title": "5ｍメッシュDEM（航空レーザ測量）",
+                      "url": "https://maps.gsi.go.jp/xyz/fgd_dem5a_update_2025_10/{z}/{x}/{y}.geojson",
+                      "cocotile": true,
+                      "minZoom": 2,
+                      "maxZoom": 14,
+                      "maxNativeZoom": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "LayerGroup",
                   "title": "2025年7月更新",
                   "toggleall": false,
                   "entries": [
@@ -5722,7 +5873,7 @@
               "minZoom": 2,
               "maxZoom": 13,
               "maxNativeZoom": 2,
-              "html": "<div class=\"gsi_layerinfo_title\">数値地図（国土基本情報）の更新情報</div><div class=\"gsi_layerinfo_kaisetu\">数値地図（国土基本情報）の図郭を表示します。<br>地図上をクリックすると、コード、図名（漢字）、更新年月日が表示されます。</div><br><div class=\"gsi_layerinfo_kaisetu\"><a href=\"https://www.gsi.go.jp/kibanjoho/kibanjoho40027.html\" target=\"_blank\">数値地図（国土基本情報）サイト</a></div>"
+              "html": "<div class=\"gsi_layerinfo_title\">数値地図（国土基本情報）の更新情報</div><div class=\"gsi_layerinfo_kaisetu\">数値地図（国土基本情報）の図郭を表示します。<br>地図上をクリックすると、コード、図名（漢字）、更新年月日が表示されます。<br><br><div class=\"gsi_layerinfo_kaisetu\">更新日リスト：<a href=\"https://dkgd.gsi.go.jp/djbm/updatetile/data/list/list.pdf\" target=\"_blank\">PDF</a>　<a href=\"https://dkgd.gsi.go.jp/djbm/updatetile/data/list/list.csv\" target=\"_blank\">CSV</a></div><br><div class=\"gsi_layerinfo_kaisetu\"><a href=\"https://www.gsi.go.jp/kibanjoho/kibanjoho40027.html\" target=\"_blank\">数値地図（国土基本情報）サイト</a></div>"
             },
             {
               "type": "Layer",
@@ -5733,7 +5884,7 @@
               "minZoom": 2,
               "maxZoom": 13,
               "maxNativeZoom": 2,
-              "html": "<div class=\"gsi_layerinfo_title\">電子地形図25000の更新情報</div><div class=\"gsi_layerinfo_kaisetu\">電子地形図25000の図郭を表示します。<br>地図上をクリックすると、コード、図名（漢字）、更新年月日が表示されます。</div><br><div class=\"gsi_layerinfo_kaisetu\"><a href=\"https://www.gsi.go.jp/kibanjoho/kibanjoho40030.html\" target=\"_blank\">電子地形図25000サイト</a></div>"
+              "html": "<div class=\"gsi_layerinfo_title\">電子地形図25000の更新情報</div><div class=\"gsi_layerinfo_kaisetu\">電子地形図25000の図郭を表示します。<br>地図上をクリックすると、コード、図名（漢字）、更新年月日が表示されます。<br><br><div class=\"gsi_layerinfo_kaisetu\">更新日リスト：<a href=\"https://dkgd.gsi.go.jp/djbm/updatetile/data/list/list.pdf\" target=\"_blank\">PDF</a>　<a href=\"https://dkgd.gsi.go.jp/djbm/updatetile/data/list/list.csv\" target=\"_blank\">CSV</a></div><br><div class=\"gsi_layerinfo_kaisetu\"><a href=\"https://www.gsi.go.jp/kibanjoho/kibanjoho40030.html\" target=\"_blank\">電子地形図25000サイト</a></div>"
             },
             {
               "type": "Layer",
@@ -5748,16 +5899,16 @@
             },
             {
               "type": "LayerGroup",
-              "title": "点群データの提供情報",
-              "html": "<div class='layer_text'><p>点群データを提供した地域を年月別に表示します。</p></div>",
+              "title": "点群データの更新情報",
+              "html": "<div class='layer_text'><p>点群データを更新した地域を年月別に表示します。</p></div>",
               "toggleall": false,
               "entries": [
               	{
                   "type": "LayerGroup",
-                  "title": "点群データ（航空レーザ測量）の<br>提供地域と作業年度",
+                  "title": "点群データ（航空レーザ測量）の<br>刊行範囲と作業年度",
                   "id": "3d_pcd_area_dtil",
                   "toggleall": false,
-                  "html": "<div class=\"gsi_layerinfo_title\">点群データ（航空レーザ測量）<br>提供範囲と作業年度</div><div class=\"gsi_layerinfo_kaisetu\"><div>航空レーザ測量により整備した点群データの提供範囲と作業年度を表示します。<br><ul><li>ズーム：5～11<br>点群データの提供範囲（概略）</li><li>ズーム：12～14<br>点群データの提供範囲（詳細）と作業年度等</li></ul></div><a target=\"_blank\" href=\"https://www.gsi.go.jp/gazochosa/tengun.html\">点群データサイト</a></div>",
+                  "html": "<div class=\"gsi_layerinfo_title\">点群データ（航空レーザ測量）<br>刊行範囲と作業年度</div><div class=\"gsi_layerinfo_kaisetu\"><div>航空レーザ測量により整備した点群データの刊行範囲と作業年度を表示します。<br><ul><li>ズーム：5～11<br>点群データの刊行範囲（概略）</li><li>ズーム：12～14<br>点群データの刊行範囲（詳細）と作業年度等</li></ul></div><a target=\"_blank\" href=\"https://www.gsi.go.jp/gazochosa/tengun.html\">点群データサイト</a></div>",
                   "entries": [
                     {
                       "type": "Layer",
@@ -5783,8 +5934,18 @@
                 },
                 {
                   "type": "Layer",
+                  "id": "3d_pcd_update_2025_11",
+                  "title": "2025年11月刊行",
+                  "url": "https://maps.gsi.go.jp/xyz/3d_pcd_update_2025_11/{z}/{x}/{y}.geojson",
+                  "cocotile": true,
+                  "minZoom": 2,
+                  "maxZoom": 14,
+                  "maxNativeZoom": 2
+                },
+                {
+                  "type": "Layer",
                   "id": "3d_pcd_update_2025_07",
-                  "title": "2025年7月提供",
+                  "title": "2025年7月刊行",
                   "url": "https://maps.gsi.go.jp/xyz/3d_pcd_update_2025_07/{z}/{x}/{y}.geojson",
                   "cocotile": true,
                   "minZoom": 2,
@@ -5794,7 +5955,7 @@
                 {
                   "type": "Layer",
                   "id": "3d_pcd_update_2025_02",
-                  "title": "2025年2月提供",
+                  "title": "2025年2月刊行",
                   "url": "https://maps.gsi.go.jp/xyz/3d_pcd_update_2025_02/{z}/{x}/{y}.geojson",
                   "cocotile": true,
                   "minZoom": 2,
